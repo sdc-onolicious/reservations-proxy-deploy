@@ -1,0 +1,30 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeseats/slhodak-proxy.git"
+  },
+  "description": "A reviews module for restaurant-goers' opinions",
+  "author": "Sam Hodak",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "node ./server/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.16.4",
+    "newrelic": "^5.10.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "bugs": {
+    "url": "https://github.com/freeseats/slhodak-proxy/issues"
+  },
+  "homepage": "https://github.com/freeseats/slhodak-proxy#readme"
+}

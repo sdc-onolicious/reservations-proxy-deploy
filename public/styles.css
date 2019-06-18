@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Brandon;
+  src: url('./fonts/BrandonText_Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: Brandon-Med;
+  src: url('./fonts/BrandonText_Medium.otf') format('opentype');
+}
+
+.whole-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.centerContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 710px;
+  margin-right: 340px;
+}
+
+#body {
+  position: absolute;
+  top: 15px;
+}
+
+#reviews {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -220px;
+  height: 0px;
+  width: 0px;
+}
