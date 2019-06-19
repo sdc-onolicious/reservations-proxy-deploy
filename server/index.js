@@ -13,7 +13,8 @@ app.get('/:id', (req, res) => {
 
 app.get('/restaurants/:id/reservations', (req, res) => {
   const { id } = req.params;
-  axios.get(`http://18.223.184.243:3020/restaurants/${id}/reservations`)
+  // axios.get(`http://18.223.184.243:3020/restaurants/${id}/reservations`)
+  axios.get(`http://13.59.8.126:80/restaurants/${id}/reservations`)
   .then(response => {
     res.status(200).send(response.data);
   })
